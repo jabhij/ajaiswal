@@ -295,12 +295,16 @@ section {
 
 .details-container {
   padding: 1.5rem;
-  flex: 1;
+  /* it was- flex: 1; */
   background: white;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
+  /* Scroll */
+  flex: 0 0 auto; 
+  width: 300px; /* Adjust as needed */
+  margin-right: 10px; /* Adjust spacing between projects */
 }
 
 .section-container {
@@ -331,6 +335,11 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  /* Scroll */
+  overflow-x: auto;
+  display: flex;
+  white-space: nowrap;
+  scroll-behavior: smooth;
 }
 
 .article-container {
@@ -437,23 +446,6 @@ footer p {
   display: flex;
   align-items: center;
   width: 100%;
-}
-
-.experience-details-container {
-  overflow-x: auto;
-  display: flex;
-  white-space: nowrap;
-  scroll-behavior: smooth;
-}
-
-.about-containers {
-  display: flex;
-}
-
-.details-container {
-  flex: 0 0 auto;
-  width: 300px; /* Adjust as needed */
-  margin-right: 10px; /* Adjust spacing between projects */
 }
 
 .icon.arrow {
