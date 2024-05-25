@@ -302,9 +302,6 @@ section {
   border-color: rgb(163, 163, 163);
   text-align: center;
   /* Scroll */
-  flex: 0 0 auto; 
-  width: 300px; /* Adjust as needed */
-  margin-right: 10px; /* Adjust spacing between projects */
 }
 
 .section-container {
@@ -336,10 +333,6 @@ section {
   justify-content: center;
   flex-direction: column;
   /* Scroll */
-  overflow-x: auto;
-  display: flex;
-  white-space: nowrap;
-  scroll-behavior: smooth;
 }
 
 .article-container {
@@ -439,6 +432,4 @@ footer {
 footer p {
   text-align: center;
 }
-
-
 
