@@ -271,6 +271,9 @@ section {
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
+  /* Scroll */
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .about-details-container {
@@ -295,13 +298,14 @@ section {
 
 .details-container {
   padding: 1.5rem;
-  /* it was- flex: 1; */
+  flex: 1;
   background: white;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
   /* Scroll */
+  box-sizing: border-box;
 }
 
 .section-container {
@@ -333,6 +337,9 @@ section {
   justify-content: center;
   flex-direction: column;
   /* Scroll */
+  flex-wrap: wrap;
+  overflow-x: auto;
+  padding: 10px;
 }
 
 .article-container {
@@ -433,3 +440,14 @@ footer p {
   text-align: center;
 }
 
+@media (max-width: 768px) {
+  .details-container {
+    flex: 0 0 calc(50% - 20px); /* Two in one line on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .details-container {
+    flex: 0 0 calc(100% - 20px); /* Full width on very small screens */
+  }
+}
