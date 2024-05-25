@@ -440,32 +440,5 @@ footer p {
   text-align: center;
 }
 
-/* Scroll - Left & Right */
-.scroll-container {
-  position: relative;
-  display: flex;
-  align-items: center;
-  width: 100%;
-}
 
-.icon.arrow {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 1;
-  width: 50px; /* Adjust size as needed */
-  height: 50px; /* Adjust size as needed */
-}
 
-.left-arrow {
-  left: 0;
-}
-
-.right-arrow {
-  right: 0;
-}
-
-.icon.arrow:hover {
-  opacity: 0.7;
-}
