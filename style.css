@@ -268,8 +268,8 @@ section {
 }
 
 .about-containers {
-  gap: 1rem;
-  margin-bottom: 1rem; /* Changed from 2rm */
+  gap: 1rem; /* Changed from 2rm */
+  margin-bottom: 2rem; /* Changed from 2rm */
   margin-top: 1rem; /* Changed from 2rm */
   /* Scroll */
   display: flex;
