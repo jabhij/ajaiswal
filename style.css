@@ -274,7 +274,7 @@ section {
 }
 
 .about-details-container {
-  justify-content: left;
+  justify-content: center;
   flex-direction: column;
 }
 
