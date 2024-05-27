@@ -268,9 +268,9 @@ section {
 }
 
 .about-containers {
-  gap: 2rem; /* Changed from 2rm */
-  margin-bottom: 2rem; /* Changed from 2rm */
-  margin-top: 2rem; /* Changed from 2rm */
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 .about-details-container {
