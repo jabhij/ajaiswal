@@ -323,13 +323,13 @@ section {
 .experience-sub-title {
   color: rgb(85, 85, 85);
   font-weight: 450;
-  font-size: 1.40rem;
+  font-size: 1.35rem;
   margin-bottom: 2rem;
 }
 
 .experience-details-container {
   display: flex;
-  justify-content: left;
+  justify-content: center;
   flex-direction: column;
 }
 
@@ -430,4 +430,3 @@ footer {
 footer p {
   text-align: center;
 }
-
