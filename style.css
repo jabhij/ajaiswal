@@ -271,9 +271,6 @@ section {
   gap: 2rem; /* Changed from 2rm */
   margin-bottom: 2rem; /* Changed from 2rm */
   margin-top: 2rem; /* Changed from 2rm */
-  /* Scroll */
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .about-details-container {
