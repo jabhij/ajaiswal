@@ -300,9 +300,7 @@ section {
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
-  text-align: center;
-  /* Scroll */
-  box-sizing: border-box;
+  text-align: left;
 }
 
 .section-container {
@@ -333,10 +331,6 @@ section {
   display: flex;
   justify-content: left;
   flex-direction: column;
-  /* Scroll */
-  flex-wrap: wrap;
-  overflow-x: auto;
-  padding: 10px;
 }
 
 .article-container {
